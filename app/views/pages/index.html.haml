@@ -1,4 +1,4 @@
-= form_tag(:action => 'translate') do
+= form_tag({:action => 'translate'}, :id => "main_form") do
   #locales
     .locale.current
       = select_tag(:current_locale,
@@ -25,18 +25,7 @@
                 = label_tag "features[#{feature.id}]", t("models.feature.data.key.#{feature.key}", :description => feature.key.titleize)
 
         
-    #preview
-      - current_category ||= nil
-      - @checked_features.each do |feature|
-        
-        - unless current_category == feature.category
-          - current_category = feature.category
-          = raw '</ul></div>' unless feature == @checked_features.first
-          = raw '<div class="category">'
-          %h3= t "models.category.data.key.#{current_category.key}", :locale => @target_locale
-          <ul>
-
-        %li= t("models.feature.data.key.#{feature.key}", :locale => @target_locale)
-      </ul></div>
+    #preview= render 'preview'
+      
   .container
     #save= submit_tag

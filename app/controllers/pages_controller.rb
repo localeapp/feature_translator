@@ -15,8 +15,10 @@ class PagesController < ApplicationController
 
   def translate
     index
-    
-    render 'index'
+    respond_to do |format|
+      format.html { render 'index' }
+      format.js   { render :partial => 'preview'}
+    end
   end
 
 private
