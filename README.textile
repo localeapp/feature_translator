@@ -1,0 +1,21 @@
+== Feature Translator
+
+A demo rails 3 application that uses LocaleApp for i18n.
+
+== Installation
+
+Clone the Github repo
+
+@git clone git://github.com/LocaleApp/feature_translator.git@
+
+Install the project dependencies
+
+@cd feature_translator && bundle@
+
+Get an API_KEY from http://www.localeapp.com, then generate a LocaleApp configuration
+
+@localeapp install PROJECT_API_KEY
+
+Create the DB, load seed data and send translations to LocaleApp
+
+@rake db:setup@
