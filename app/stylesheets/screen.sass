@@ -1,0 +1,71 @@
+@import "base"
+@import "compass"
+@import "blueprint"
+
+@include blueprint-typography
+
+h1
+  text-align: center
+  a
+    @include hover-link
+
+.container, #locales
+  @include container
+
+#locales
+  background: #e0e0e0
+  padding: .75em 0
+
+.locale.current
+  @include column(16)
+
+.locale.target
+  @include column(8, true)
+
+#categories, #features
+  ul
+    list-style: none
+    margin-bottom: 0
+
+#categories
+  @include column(3)
+  background: $categories_bg_color
+  ul
+    margin: 0
+    padding: 0
+  li
+    border-top: 1px solid $categories_border_color
+  a
+    @include link-colors($categories_link_color)
+    @include hover-link
+    border-right: 1px solid $categories_border_color
+    display: block
+    padding: .5em 1em .5em 0
+    text-align: right
+  .current
+    background: $link-color
+    color: white
+    font-weight: bold
+
+#features
+  @include column(7)
+  background: $features_bg_color
+  li
+    padding: .5em 0
+
+#preview
+  @include column(14, true)
+  .category
+    float: left
+    width: 100%
+  ul
+    
+  li
+    float: left
+    margin: 0 1em
+    padding: .25em 0
+
+#save
+  background: #e0e0e0
+  padding: .75em 0
+  text-align: center

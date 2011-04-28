@@ -1,0 +1,42 @@
+= form_tag(:action => 'translate') do
+  #locales
+    .locale.current
+      = select_tag(:current_locale,
+        options_for_select(I18n.available_locales, I18n.locale))
+    .locale.target
+      = select_tag(:target_locale,
+        options_for_select(I18n.available_locales, @target_locale))
+
+  .container
+    #categories
+      %ul.tabs
+        - @categories.each do |category|
+          %li= link_to(t("models.category.data.key.#{category.key}", :description => category.key.titleize),
+            "#category_features_#{category.key}",
+            :class => (category == @categories.first ? 'current' : ''))
+
+    #features
+      .panes
+        - @categories.each do |category|
+          %ul.pane{:name => "category_features_#{category.key}"}
+            - category.features.each do |feature|
+              %li
+                = check_box_tag "features[#{feature.id}]", feature.id , @checked_features.include?(feature)
+                = label_tag "features[#{feature.id}]", t("models.feature.data.key.#{feature.key}", :description => feature.key.titleize)
+
+        
+    #preview
+      - current_category ||= nil
+      - @checked_features.each do |feature|
+        
+        - unless current_category == feature.category
+          - current_category = feature.category
+          = raw '</ul></div>' unless feature == @checked_features.first
+          = raw '<div class="category">'
+          %h3= t "models.category.data.key.#{current_category.key}", :locale => @target_locale
+          <ul>
+
+        %li= t("models.feature.data.key.#{feature.key}", :locale => @target_locale)
+      </ul></div>
+  .container
+    #save= submit_tag
