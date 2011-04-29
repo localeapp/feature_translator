@@ -5,4 +5,3 @@ tmp/
 
 public/stylesheets*
 log/*yml
-config/locales/*yml

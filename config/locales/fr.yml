@@ -1,8 +1,18 @@
 fr: 
-  models:
-    category:
-      data:
-        key:
+  locales: 
+    da: Danois
+    de: Allemand
+    en: Anglais
+    es: Espagnol
+    fr: Français
+    it: Italien
+    nl: Néerlandais
+    pt: Portugais
+    ru: Russe
+  models: 
+    category: 
+      data: 
+        key: 
           bathroom: "salle de bains"
           buildings: bâtiments
           garden: jardin
@@ -20,8 +30,8 @@ fr:
           utilities: utilités
           views: vues
     feature: 
-      data:
-        key:
+      data: 
+        key: 
           24_hour_reception: "réception 24 heures"
           24h_security_system: "système de sécurité 24 heures"
           access_to_beach: "accès a la plage"

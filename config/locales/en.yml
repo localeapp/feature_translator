@@ -1,4 +1,14 @@
 en: 
+  locales: 
+    da: Danish
+    de: German
+    en: English
+    es: Spanish
+    fr: French
+    it: Italian
+    nl: Dutch
+    pt: Portuguese
+    ru: Russian
   models: 
     category: 
       data: 

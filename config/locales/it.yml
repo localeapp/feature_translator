@@ -1,4 +1,13 @@
 it: 
+  locales: 
+    da: ~
+    de: ~
+    en: ~
+    es: ~
+    fr: ~
+    it: ~
+    nl: ~
+    pt: ~
   models: 
     category: 
       data: 
