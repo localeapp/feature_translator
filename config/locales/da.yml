@@ -1,0 +1,255 @@
+da: 
+  models: 
+    category: 
+      data: 
+        key: 
+          bathroom: badeværelse
+          buildings: bygninger
+          garden: have
+          heating: varmeinstallation
+          kitchen: køkken
+          leisure: fritidsaktiviteter
+          location: område
+          other: andet
+          outside: udendørs
+          parking: parkeringsforhold
+          pool: svømmebasin
+          quality: kvalitet
+          rooms: værelser
+          security: sikkerhed
+          utilities: "vand, el mm"
+          views: udsigt
+    feature: 
+      data: 
+        key: 
+          24_hour_reception: "24 timers reception"
+          24h_security_system: "24 timers sikkerhedssystem"
+          access_to_beach: "adgang til stranden"
+          adsl: adsl
+          agricultural_water: "landbo vand"
+          air_conditioning: klimaanlæg
+          alarm_system: alarmsysmtem
+          attic_room: "udnyttet loft"
+          automatic_entrance: "automatisk indgang"
+          automatic_irrigation_system: "automatisk irrigationssytem"
+          barbecue: grill
+          basement: kælder
+          beautiful_garden: "smuk have"
+          bottled_gas: flaskegas
+          breakfast_room: spisekøkken
+          built_to_high_standards: "bygget til høj standard"
+          cctv: overvågningskameraer
+          central: centralt
+          central_heating: centralvarme
+          charming_property: "charmerende ejendom"
+          city_gas: "offentlig gas"
+          close_to_airport: "tæt på lufthavn"
+          close_to_all_amenities: "tæt på alle fornødenheder"
+          close_to_golf: "tæt på golfbanen"
+          close_to_lake: "tæt ved sø"
+          close_to_medical_facilities: "tæt på læge faciliteter"
+          close_to_port: "tæt på havnen"
+          close_to_river: "tæt ved en flod"
+          close_to_schools: "tæt på skoler"
+          close_to_shops: "tæt på forretningerne"
+          close_to_ski_ing: "tæt på ski"
+          close_to_tennis: "tæt på tennisbaner"
+          close_to_the_sea: "tæt på havet"
+          close_to_town: "tæt på byen"
+          coastal: "ved kysten"
+          commercial_area: erhversområde
+          commercial_unit: erhvervsejendom
+          communal_pool: "fælles svømmebasin"
+          community_garden: fælleshave
+          cosmetic_work_needed: "trænger til en ansigtsløftning"
+          countryside: "på landet"
+          countryside_views: "udsigt til landlige omgivelser"
+          courtyard: gårdhave
+          covered_terrace: "overdækket terasse"
+          dining_area: spisekrog
+          dining_room_with_fireplace: "spisestue med ildsted"
+          disabled_access: "adgang for handicappede"
+          double_garage: dobbeltgarage
+          double_glazing: "to-lags vinduer"
+          dressing_room: påklædningsværelse
+          driveway: gåpåmod
+          easily_maintained_gardens: "let vedligeholdt have"
+          electric_blinds: "elektriske rulleskoder"
+          electric_central_heating: elvarme
+          electric_garage_door: "elektrisk garage port"
+          electric_gates: "elektrisk port"
+          electric_water_heating: "elektrisk vand varme"
+          electricity: elektricitet
+          electricity_possible: "mulighed for at få lagt el ind"
+          electronic_entry_system: "elektronisk indgangssytem"
+          en_suite: ensuite
+          en_suite_bathroom: "badeværelse ensuite"
+          en_suite_shower_room: "brusebad ensuite"
+          exclusive_development: "eksklusivt byggeri"
+          fire_detector: røgalarmer
+          fireplace: ildsted
+          first_line_beach: "lige ved stranden"
+          first_line_harbour: "beligende ud til havnen"
+          fitted_bathroom: badeværelse
+          fitted_kitchen: "indbygget køkken"
+          fitted_wardrobes: "indbyggede skabe"
+          floor_heating: gulvvarme
+          frontline_golf: "lige på golfbanen"
+          fruit_trees: frugttræer
+          full_escritura: "fuld escritura"
+          full_of_character: "masser af karakter"
+          furnished: møbleret
+          garage: garage
+          garden: have
+          garden_&_pool_views: "udsigt til have og svømmebasin"
+          garden_apartment: "have lejlighed"
+          gas_central_heating: gasfyr
+          gas_water_heating: "varmt vand fra gas"
+          gated_complex: "lukket kompleks"
+          generator: generator
+          glazed_terrace: "terasse med rude"
+          golf_complex: golfkompleks
+          golf_views: "udsigt til golfbaner"
+          good_condition: "god tilstand"
+          good_rental_potential: "gode udlejningsmuligheder"
+          good_road_access: "god adgang til vejen"
+          guest_apartment: gæstelejlighed
+          guest_bungalow: gæstebungalow
+          guest_cloakroom: gæstetoilet
+          guest_house: gæstehus
+          gymnasium: idrætshal
+          heated_outdoor_pool: "opvarmet udendørssvømmebasin"
+          heated_pool: "opvarmet svømmebasin"
+          heating: varme
+          historic_area: "historisk område"
+          hydro_massage_bath: "hydro massage bad"
+          immaculate_condition: "glimrende tilstand"
+          independent_apartment: "selvstændig lejlighed"
+          independent_kitchen: "separat køkken"
+          independent_studio: "selvstændig studiolejlighed"
+          indoor_pool: indendørssvømmebasin
+          inland: indenrigs
+          interior_courtyard: gårdhave
+          internet_possible: "mulighed for internet forbindelse"
+          jacuzzi: jacuzzi
+          kitchen_diner: køkken-alrum
+          kitchen_semi_furnished: "halv-møbleret køkken"
+          kitchenette: "lille køkken"
+          landscaped_gardens: "have tegnet af anlægsgartner"
+          large_attic_space: "stort loftsrum"
+          large_garden: "stor have"
+          large_store_room: "stort disponibelt rum"
+          level_plot: "jævn byggegrund"
+          lift: elevator
+          lounge: stue
+          lounge_dining_area: "stue med spisekrog"
+          luxury_kitchen: "luksus køkken"
+          many_special_features: "mange særlige kendetegn"
+          marble_floors: marmorgulv
+          mature_garden: "moden have"
+          modern: moderne
+          mountain_views: "udsigt til bjergene"
+          near_beach: "tæt på standen"
+          near_transport: "nær transportmidler"
+          new_development: nybyggeri
+          newly_built: nybyggeri
+          off_road_parking: "parkering væk fra vejen"
+          office: kontor
+          oil_central_heating: oliefyr
+          open_fireplace: "åbent ildsted"
+          open_plan_kitchen: "åbent plan køkken"
+          outbuildings: udhusbygninger
+          outside_kitchen: "udendørs køkken"
+          outskirts_of_town: "udkanten af byen"
+          paddle_tennis: "strand tennis"
+          paddock: hestefold
+          parking: parkering
+          parking_nearby: "tæt på parkeringsfaciliteter"
+          part_renovated: "delvis renoveret"
+          partly_furnished: halv-møbleret
+          patio: solgård
+          permission_to_build: byggetilladelse
+          picturesque_garden: "naturskøn have"
+          pool: svømmebasin
+          popular_urbanisation: "populært kvarter"
+          possibility_of_extension: "muligt at bygge til"
+          possibility_to_build: "mulighed for a bygge"
+          pre_installed_air_conditioning: "præ-installeret klimaanlæg"
+          pre_installed_alarm: "præ-installeret alarm"
+          pre_installed_heating: "præ-installeret varme"
+          prestigious_area: "eksklusivt område"
+          private_pool: "private svømmebasin"
+          putting_green: "putting green"
+          quality_residence: kvalitetsbolig
+          quiet_location: "stille beliggenhed"
+          reception_with_fireplace: "stue med ildsted"
+          refurbished: istandsat
+          renovated: renoveret
+          renovation_needed: "trænger til renovation"
+          residential_area: boligområde
+          roof_terrace: tagterasse
+          rooms_individually_heated: "alle værelser selvstændigt opvarmet"
+          rustic_style: "rustik stil"
+          satellite_tv: "satellit tv"
+          sauna: sauna
+          sea_views: "udsigt til havet"
+          secluded: afsidesliggende
+          second_line_sea: "beliggende i anden linje fra havet"
+          security_guard: sikkerhedsvagt
+          security_system: sikkerhedssytem
+          separate_dining_room: spisestue
+          separate_guest_accommodation: "separat gæstebolig"
+          separate_office: "selvstændigt kontor"
+          separate_wc: "separat WC"
+          shower_room: "badeværelse med brus"
+          sloping_plot: "skrående byggegrund"
+          solar_heating: solvarme
+          solar_power: "solar kraft"
+          solar_water_heating: "varmt vand fra solvarme"
+          sought_after_area: "populært område"
+          space_for_garage: "plads til garage"
+          space_for_pool: "plads til svømmebasin"
+          spacious_accommodation: rummelig
+          sports_facilities: sportsfaciliteter
+          spring_water: "vand fra bæk"
+          squash_court: "squash bane"
+          stables: stalde
+          steam_room: dampbad
+          store_room: opbevaringsrum
+          street_parking: "parkering på gaden"
+          study: kontor/værelse
+          stylish_accommodation: stilfuld
+          subtropical_gardens: "subtropisk have"
+          sunny_terraces: "solrig terasse"
+          tastefully_decorated: "smagfuldt gjort i stand"
+          telephone: telefon
+          telephone_possible: "mulighed for telefon"
+          tennis_court: tennisbane
+          terrace: terasse
+          traditional_features: "traditionel arkitetur"
+          traditional_village: "traditionel landsby"
+          trees: træer
+          underfloor_heating_throughout: "gulvvarme i hele ejendomme"
+          underground_parking: "under jorden parkering"
+          unfurnished: umøbleret
+          utility_room: bryggers
+          various_interior_patios: "diverse terasser"
+          various_store_rooms: "diverse disponible rum"
+          various_terraces: "diverse terasser"
+          vegetable_garden: køkkenhave
+          very_good_access: "virkelig god adgang"
+          video_entry_system: "video indgangssytem"
+          vineyard: vingård
+          water: vand
+          water_deposit: vanddepot
+          water_possible: "mulighed for vand"
+          water_softener: afhærdningsmiddel
+          well_presented: "pænt præsenteret"
+          wine_cellar: vinkælder
+          with_project_to_construct: "projekt at konstruere"
+          wood_burner: brændeovn
+          wood_flooring: trægulv
+          workshop: hobbyrum
+  views: 
+    application: 
+      title: ~

@@ -1,0 +1,253 @@
+nl: 
+  models: 
+    category: 
+      data: 
+        key: 
+          bathroom: badkamer
+          buildings: Gebouwen
+          garden: tuin
+          heating: verwarming
+          kitchen: keuken
+          leisure: "vrije tijd"
+          location: locatie
+          other: andere
+          outside: buiten
+          parking: parkeren
+          pool: zwembad
+          quality: kwaliteit
+          rooms: kamers
+          security: veiligheid
+          utilities: voorzieningen
+          views: uitzichten
+    feature: 
+      data: 
+        key: 
+          24_hour_reception: "24 uurs receptie"
+          24h_security_system: "24 uurs bewakingssysteem"
+          access_to_beach: "toegang tot strand"
+          adsl: ADSL
+          agricultural_water: sproeiwater
+          air_conditioning: airconditioning
+          alarm_system: alarmsysteem
+          attic_room: zolderkamer
+          automatic_entrance: "geautomatiseerde toegang"
+          automatic_irrigation_system: "automatisch irrigatiesysteem"
+          barbecue: barbecue
+          basement: kelder
+          beautiful_garden: "prachtige tuin"
+          bottled_gas: gasflessen
+          breakfast_room: ontbijtkamer
+          built_to_high_standards: "gebouwd volgens de hoogste normen"
+          cctv: "gesloten tv circuit"
+          central: centraal
+          central_heating: "centrale verwarming"
+          charming_property: "aantrekkelijke woning"
+          city_gas: stadsgas
+          close_to_airport: "nabij luchthaven"
+          close_to_all_amenities: "in de buurt van alle voorzieningen"
+          close_to_golf: "nabij golfbaan"
+          close_to_lake: "nabij meer"
+          close_to_medical_facilities: "nabij medische voorzieningen"
+          close_to_port: "nabij haven"
+          close_to_river: "nabij rivier"
+          close_to_schools: "nabij scholen"
+          close_to_shops: "nabij winkels"
+          close_to_ski_ing: "nabij skigebied"
+          close_to_tennis: "nabij tennisbaan"
+          close_to_the_sea: "vlakbij de zee"
+          close_to_town: "dicht bij de stad"
+          coastal: "nabij de kust"
+          commercial_area: winkelcentrum
+          commercial_unit: bedrijfseenheid
+          communal_pool: "gemeenschappelijk zwembad"
+          community_garden: "gemeenschappelijke tuin"
+          cosmetic_work_needed: "uiterlijke verbeteringen noodzakelijk"
+          countryside: landstreek
+          countryside_views: "uitzicht op landschap"
+          courtyard: binnenhof
+          covered_terrace: "overdekt terras"
+          dining_area: eetkamer
+          dining_room_with_fireplace: "eetkamer met vuurhaard"
+          disabled_access: "toegankelijk voor gehandicapten"
+          double_garage: "dubbele garage"
+          double_glazing: "dubbele ramen"
+          dressing_room: kleedkamer
+          driveway: oprit
+          easily_maintained_gardens: "makkelijk te onderhouden tuinen"
+          electric_blinds: "elektrische jaloezieën"
+          electric_central_heating: "elektrische centrale verwarming"
+          electric_garage_door: "electronische garagedeur"
+          electric_gates: "electronische poorten"
+          electric_water_heating: "electrische waterverwarming"
+          electricity: elektriciteit
+          electricity_possible: "electriciteit mogelijk"
+          electronic_entry_system: "elektronisch beveiligde ingang"
+          en_suite: "en suite"
+          en_suite_bathroom: "en suite badkamer"
+          en_suite_shower_room: "en suite doucheruimte"
+          exclusive_development: "exclusief project"
+          fire_detector: branddetector
+          fireplace: vuurhaard
+          first_line_beach: "eerste rij aan het strand"
+          first_line_harbour: "direkt aan de haven"
+          fitted_bathroom: "compleet ingerichte badkamer"
+          fitted_kitchen: "volledig uitgeruste keuken"
+          fitted_wardrobes: "ingebouwde garderobes"
+          floor_heating: vloerverwarming
+          frontline_golf: "direct aan golfbaan"
+          fruit_trees: fruitbomen
+          full_escritura: eigendomstitel
+          full_of_character: karaktervol
+          furnished: gemeubileerd
+          garage: garage
+          garden: tuin
+          garden_&_pool_views: "uitzicht op tuin en zwembad"
+          garden_apartment: tuinappartement
+          gas_central_heating: "centrale verwarming (gas)"
+          gas_water_heating: "gas water verwarming"
+          gated_complex: "terrein is omheind"
+          generator: generator
+          glazed_terrace: "met glas beschut terras"
+          good_condition: "in goede staat"
+          good_rental_potential: "uitstekende verhuurmogelijkheden"
+          good_road_access: "goede toegang tot de weg"
+          guest_apartment: gastenappartement
+          guest_bungalow: gastenbungalow
+          guest_cloakroom: gastengarderobe
+          guest_house: gasthuis
+          gymnasium: gymzaal
+          heated_outdoor_pool: "verwarmd buitenbad"
+          heated_pool: "verwarmd zwembad"
+          heating: verwarming
+          historic_area: "historische omgeving"
+          hydro_massage_bath: "hydro massagebad"
+          immaculate_condition: "in uitstekende staat"
+          independent_apartment: "vrijstaand appartement"
+          independent_kitchen: "vrijliggende keuken"
+          independent_studio: "vrijstaande studio"
+          indoor_pool: binnenbad
+          inland: binnenland
+          interior_courtyard: "inpandige patio"
+          internet_possible: "mogelijkheid voor internet"
+          jacuzzi: jacuzzi
+          kitchen_diner: eetkeuken
+          kitchen_semi_furnished: "gedeeltelijk ingerichte keuken"
+          kitchenette: "amerikaanse keuken"
+          landscaped_gardens: "onder architectuur aangelegde tuinen"
+          large_attic_space: "grote zolderruimte"
+          large_garden: "grote tuin"
+          large_store_room: "grote opbergruimte"
+          level_plot: "vlak terrein"
+          lift: lift
+          lounge: hal
+          lounge_dining_area: eetsalon
+          luxury_kitchen: "luxe keuken"
+          many_special_features: "vele speciale voorzieningen"
+          marble_floors: "marmeren vloeren"
+          mature_garden: "weelderige tuin"
+          modern: modern
+          mountain_views: "uitzicht op de bergen"
+          near_beach: "vlakbij het strand"
+          near_transport: "vlakbij openbaar vervoer"
+          new_development: "nieuw project"
+          newly_built: "pas gebouwd"
+          off_road_parking: "onverharde parkeerplaats"
+          office: kantoor
+          oil_central_heating: "centrale verwarming (olie)"
+          open_fireplace: openhaard
+          open_plan_kitchen: "keuken met open inrichting"
+          outbuildings: buitenhuizen
+          outside_kitchen: buitenkeuken
+          outskirts_of_town: "buitenwijk van de stad"
+          paddle_tennis: "roeien tennis"
+          paddock: paddock
+          parking: parkeerruimte
+          parking_nearby: "dichtbij parkeren"
+          part_renovated: "deels gerenoveerd"
+          partly_furnished: "deels gemeubileerd"
+          patio: patio
+          permission_to_build: bouwvergunning
+          picturesque_garden: "schilderachtige tuin"
+          pool: zwembad
+          popular_urbanisation: "populaire urbanisatie"
+          possibility_of_extension: "mogelijkheid tot uitbreiding"
+          possibility_to_build: "mogelijkheid tot bouwen"
+          pre_installed_air_conditioning: "voorgeïnstalleerde airco"
+          pre_installed_alarm: "alarm voorbereid"
+          pre_installed_heating: "voorgeïnstalleerde verwarming"
+          prestigious_area: "prestigieuze omgeving"
+          private_pool: "privé zwembad"
+          putting_green: "putting green"
+          quality_residence: toplokatie
+          quiet_location: "rustige omgeving"
+          reception_with_fireplace: "entree met vuurhaard"
+          refurbished: opgeknapt
+          renovated: vernieuwd
+          renovation_needed: "renovatie gewenst"
+          residential_area: woonwijk
+          roof_terrace: dakterras
+          rooms_individually_heated: "kamers met individuele verwarming"
+          rustic_style: "rustieke stijl"
+          satellite_tv: satelliettelevisie
+          sauna: sauna
+          sea_views: "uitzicht op zee"
+          secluded: afgezonderd
+          second_line_sea: "2e straat van zee"
+          security_guard: bewaking
+          security_system: veiligheidssysteem
+          separate_dining_room: "aparte eetkamer"
+          separate_guest_accommodation: "aparte gastenaccomodatie"
+          separate_office: "apart kantoor"
+          separate_wc: "aparte WC"
+          shower_room: doucheruimte
+          sloping_plot: "glooiend terrein"
+          solar_heating: zonneverwarming
+          solar_power: zonne-energie
+          solar_water_heating: "solaire waterverwamring"
+          sought_after_area: "populaire regio"
+          space_for_garage: "ruimte voor garage"
+          space_for_pool: "ruimte voor zwembad"
+          spacious_accommodation: "ruime accommodatie"
+          sports_facilities: sportfaciliteiten
+          spring_water: bronwater
+          squash_court: squashbaan
+          stables: stallen
+          steam_room: stoombad
+          store_room: opslagruimte
+          street_parking: "parkeren in de straat"
+          study: studeerkamer
+          stylish_accommodation: "stijlvolle accommodatie"
+          subtropical_gardens: "subtropische tuinen"
+          sunny_terraces: "zonnige terrasen"
+          tastefully_decorated: "smaakvol ingericht"
+          telephone: telefoon
+          telephone_possible: "telefoon mogelijk"
+          tennis_court: tennisbaan
+          terrace: terras
+          traditional_features: "traditionele kenmerken"
+          traditional_village: "traditioneel dorp"
+          trees: bomen
+          underfloor_heating_throughout: "volledige vloerverwarming"
+          underground_parking: "ondergrondse parkeerruimte"
+          unfurnished: ongemeubileerd
+          utility_room: bijkeuken
+          various_interior_patios: "diverse inpandige patio's"
+          various_store_rooms: "diverse opbergruimtes"
+          various_terraces: "diverse terrassen"
+          vegetable_garden: groentetuin
+          very_good_access: "uitstekend toegankelijk"
+          video_entry_system: videobewaking
+          vineyard: wijngaard
+          water: water
+          water_deposit: waterreservoir
+          water_possible: "water mogelijk"
+          water_softener: waterverzachter
+          well_presented: "goed gesitueerd"
+          wine_cellar: wijnkelder
+          with_project_to_construct: "met project in aanbouw"
+          wood_burner: houtbrander
+          wood_flooring: "houten vloeren"
+          workshop: workshop
+  views: 
+    application: 
+      title: ~

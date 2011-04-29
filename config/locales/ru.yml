@@ -1,0 +1,255 @@
+ru: 
+  models: 
+    category: 
+      data: 
+        key: 
+          bathroom: "ванная комната"
+          buildings: здания
+          garden: сад
+          heating: обогрев
+          kitchen: кухня
+          leisure: досуг
+          location: местоположение
+          other: другое
+          outside: "внешний вид"
+          parking: парковка
+          pool: бассейн
+          quality: качество
+          rooms: комнаты
+          security: безопасность
+          utilities: "коммунальные услуги"
+          views: виды
+    feature: 
+      data: 
+        key: 
+          24_hour_reception: "приемная 24 часа"
+          24h_security_system: "система безопасности 24 часа"
+          access_to_beach: "доступ к пляжу"
+          adsl: "асимметричная цифровая абонентская линия "
+          agricultural_water: "сельскохозяйственная вода"
+          air_conditioning: "кондиционер воздуха"
+          alarm_system: "система сигнализации"
+          attic_room: "мансардное помещение"
+          automatic_entrance: "автоматический вход"
+          automatic_irrigation_system: "автоматическая система полива"
+          barbecue: барбекю
+          basement: фундамент
+          beautiful_garden: "прекрасный сад"
+          bottled_gas: "газ в баллонах"
+          breakfast_room: "комната для завтрака"
+          built_to_high_standards: "построен в соответствии с высокими стандартами"
+          cctv: "кабельное телевидение"
+          central: центральная
+          central_heating: "центральное отопление"
+          charming_property: "прелестная собственность"
+          city_gas: "газ, поставляемый городом"
+          close_to_airport: "близко до аэропорта"
+          close_to_all_amenities: "близко к магазинам"
+          close_to_golf: "близко к корту для гольфа"
+          close_to_lake: "близко к озеру"
+          close_to_medical_facilities: "близко к медицинским учереждениям"
+          close_to_port: "близко к порту"
+          close_to_river: "близко к реке"
+          close_to_schools: "близко к школам"
+          close_to_shops: "близко к магазинам"
+          close_to_ski_ing: "близко к месту для катания на лыжах"
+          close_to_tennis: "близко к теннису"
+          close_to_the_sea: "близко к морю"
+          close_to_town: "близко к городу"
+          coastal: прибрежный
+          commercial_area: "коммерческая область"
+          commercial_unit: "коммерческая единица"
+          communal_pool: "общественный бассейн"
+          community_garden: "общественный сад"
+          cosmetic_work_needed: "требуется косметический ремонт"
+          countryside: "сельская местность"
+          countryside_views: "виды сельской местности"
+          courtyard: "внутренний двор"
+          covered_terrace: "крытая терраса"
+          dining_area: столовая
+          dining_room_with_fireplace: "столовая с камином"
+          disabled_access: "доступ для инвалидов"
+          double_garage: "гараж на две машины"
+          double_glazing: "двойное остекление"
+          dressing_room: "комната для переодевания"
+          driveway: "подъездная дорожка"
+          easily_maintained_gardens: "сады, за которыми легко ухаживать"
+          electric_blinds: "электрические жалюзи"
+          electric_central_heating: "электрическое центральное отопление"
+          electric_garage_door: "автоматически управляемая дверь гаража "
+          electric_gates: "автоматически управляемые ворота"
+          electric_water_heating: "электрический водонагреватель"
+          electricity: электричество
+          electricity_possible: "элуктричество доступно"
+          electronic_entry_system: "электронная система входа"
+          en_suite: смежная
+          en_suite_bathroom: "со смежной ванной комнатой"
+          en_suite_shower_room: "смежная душевая"
+          exclusive_development: "эксклюзивная застройка"
+          fire_detector: "детектор огня"
+          fireplace: камин
+          first_line_beach: "первая линия от берега"
+          first_line_harbour: "первая линия гавани"
+          fitted_bathroom: "встроенная ванная комната"
+          fitted_kitchen: "встроенна кухня"
+          fitted_wardrobes: "втроенные гардеробы"
+          floor_heating: "пол с обогревом"
+          frontline_golf: "находится на границе с кортом для гольфа"
+          fruit_trees: "фруктовые деревья"
+          full_escritura: "полная документация"
+          full_of_character: "имеет личность"
+          furnished: меблированная
+          garage: гараж
+          garden: сад
+          garden_&_pool_views: "вид сада и бассейна"
+          garden_apartment: "кватрира с садом"
+          gas_central_heating: "газовое центральное отопление"
+          gas_water_heating: "газовый нагреватель воды"
+          gated_complex: "забор с воротами"
+          generator: генератор
+          glazed_terrace: "застекленная терраса"
+          golf_complex: "гольф комплекс"
+          golf_views: "виды гольфа"
+          good_condition: "хорошие условия"
+          good_rental_potential: "хороший потенциал для аренды"
+          good_road_access: "хороший доступ к дороге"
+          guest_apartment: "квартира для гостей"
+          guest_bungalow: "бунгало для гостей"
+          guest_cloakroom: "гардероб для гостей"
+          guest_house: "дом для гостей"
+          gymnasium: "спортивный зал"
+          heated_outdoor_pool: "подогреваемый открытый бассейн"
+          heated_pool: "подогреваемый бассейн"
+          heating: отопление
+          historic_area: "историческая территория"
+          hydro_massage_bath: "гидромассажная ванная"
+          immaculate_condition: "совершенные условия"
+          independent_apartment: "независимая квартира"
+          independent_kitchen: "отдельная кухня"
+          independent_studio: "независимая студия"
+          indoor_pool: "закрытый бассейн"
+          inland: "территория, удаленная от моря"
+          interior_courtyard: "внутренний двор"
+          internet_possible: "доступен интернет"
+          jacuzzi: джакузи
+          kitchen_diner: "кухня с местом для принятия пищи"
+          kitchen_semi_furnished: "кухня частично меблированная"
+          kitchenette: "небольшая кухня"
+          landscaped_gardens: "ландшафтные сады"
+          large_attic_space: "большое помещение мансарды"
+          large_garden: "большой сад"
+          large_store_room: "большая комната для хранения"
+          level_plot: "уровневый участок"
+          lift: лифт
+          lounge: гостиная
+          lounge_dining_area: "зал для отдыха"
+          luxury_kitchen: "шикарная кухня"
+          many_special_features: "много особых принадлежностей"
+          marble_floors: "мраморные полы"
+          mature_garden: "взрослые растения в саду"
+          modern: современный
+          mountain_views: "виды гор"
+          near_beach: "возле пляжа"
+          near_transport: "возле транспорта"
+          new_development: "новая застройка"
+          newly_built: "недавно построенный"
+          off_road_parking: "парковка вне дороги"
+          office: офис
+          oil_central_heating: "котел для отопления, работающий на жидком топливе"
+          open_fireplace: "открытый камин"
+          open_plan_kitchen: "кухня открытого плана"
+          outbuildings: пристройки
+          outside_kitchen: "кухня вне здания"
+          outskirts_of_town: "предместье города"
+          paddle_tennis: "место для игры в теннис"
+          paddock: участок
+          parking: парковка
+          parking_nearby: "парковка рядом"
+          part_renovated: "частично восстановлено"
+          partly_furnished: "частично меблированная"
+          patio: патио
+          permission_to_build: "разрешение на строительство"
+          picturesque_garden: "живописный сад"
+          pool: бассейн
+          popular_urbanisation: "популярная городская площадь"
+          possibility_of_extension: "возможность расширения"
+          possibility_to_build: "возможность построить"
+          pre_installed_air_conditioning: "установленный кондиционер воздуха"
+          pre_installed_alarm: "установленная система сигнализации"
+          pre_installed_heating: "установленное отопление"
+          prestigious_area: "престижная область"
+          private_pool: "частный бассейн"
+          putting_green: "зеленое покрытие "
+          quality_residence: "дом высшего качества"
+          quiet_location: "тихое месторасположение"
+          reception_with_fireplace: "приемная с камином"
+          refurbished: реконструированная
+          renovated: восстановленная
+          renovation_needed: "нуждается в реконструкции"
+          residential_area: "жилой район"
+          roof_terrace: "терраса на крыше"
+          rooms_individually_heated: "комнаты отдельно отапливаемые"
+          rustic_style: "деревенский стиль"
+          satellite_tv: "спутниковое телевидение"
+          sauna: сауна
+          sea_views: "виды моря"
+          secluded: уединенный
+          second_line_sea: "вторая линия от моря"
+          security_guard: охранник
+          security_system: "система безопасности"
+          separate_dining_room: "отдельная столовая"
+          separate_guest_accommodation: "отдельное помещение для гостей"
+          separate_office: "отдельный офис"
+          separate_wc: "отдельный туалет"
+          shower_room: душевая
+          sloping_plot: "покатый участок"
+          solar_heating: "обогрев от солнечной батареи"
+          solar_power: "солнечная энергия"
+          solar_water_heating: "подогрев воды от солнечной батареи"
+          sought_after_area: "желаемая площадь"
+          space_for_garage: "место для гаража"
+          space_for_pool: "место для бассейна"
+          spacious_accommodation: "большое помещение"
+          sports_facilities: "спортивные сооружения"
+          spring_water: "вода из источника"
+          squash_court: "корт для игры в мяч"
+          stables: "загон для скота"
+          steam_room: парилка
+          store_room: кладовая
+          street_parking: "парковка на улице"
+          study: кабинет
+          stylish_accommodation: "стильное помещение"
+          subtropical_gardens: "субтропический сад"
+          sunny_terraces: "солнечные террасы"
+          tastefully_decorated: "декорирована со вкусом"
+          telephone: телефон
+          telephone_possible: "доступен телефон"
+          tennis_court: "теннистный корт"
+          terrace: терраса
+          traditional_features: "традиционные удобства"
+          traditional_village: "традиционная деревня"
+          trees: деревья
+          underfloor_heating_throughout: "пол с обогревом по всему дому"
+          underground_parking: "подземная автомобильная стоянка"
+          unfurnished: немеблированная
+          utility_room: "подсобное помещение"
+          various_interior_patios: "различные интерьерные патио"
+          various_store_rooms: "различные комнаты для хранения"
+          various_terraces: "различные террасы"
+          vegetable_garden: огород
+          very_good_access: "очень хороший доступ"
+          video_entry_system: "система видео входа"
+          vineyard: виноградник
+          water: вода
+          water_deposit: "резервуар воды"
+          water_possible: "доступна вода"
+          water_softener: "смягчитель воды"
+          well_presented: "хорошо представленная"
+          wine_cellar: "винный погреб"
+          with_project_to_construct: "с проектом для строительства"
+          wood_burner: "топка для дерева"
+          wood_flooring: "деревянные полы"
+          workshop: мастерская
+  views: 
+    application: 
+      title: ~

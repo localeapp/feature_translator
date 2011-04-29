@@ -29,7 +29,7 @@ module FeatureTranslator
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :en
-    config.i18n.available_locales = [:en, :fr, :es]
+    config.i18n.available_locales = [:en, :fr, :es, :da, :de, :it, :nl, :pt, :ru]
 
     # JavaScript files you want as :defaults (application.js is always included).
     # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
