@@ -1,26 +1,42 @@
 @import "base"
 @import "compass"
 @import "blueprint"
-
 @include blueprint-typography
 
+body
+  @include radial-gradient(color-stops(#799cca, #283475))
+  height: 100%
+  margin: 0
+  padding: 0
+
 h1
+  margin-bottom: 1em
   text-align: center
   a
     @include hover-link
+    @include link-colors($title_color, $title_color, $title_color, $title_color)
+    @include text-shadow(rgba(0,0,0, .8), 0, -1px)
 
-.container, #locales
+#wrapper
   @include container
+  @include box-shadow(#000, 0, 0, 30px)
+  background: #fff url(/images/main_bg.png) 0 0
+  border: 1px solid $main_border_color
 
 #locales
-  background: #e0e0e0
+  @include linear-gradient(color-stops(mix(#fff, $locales_bg_color, 50), $locales_bg_color))
+  border-bottom: 1px solid $main_border_color
+  border-top: 1px solid #dcdcdc
+  float: left
   padding: .75em 0
+  width: 100%
 
 .locale.current
-  @include column(16)
+  @include column(8)
+  @include prepend(4)
 
 .locale.target
-  @include column(8, true)
+  @include column(12, true)
 
 #categories, #features
   ul
@@ -28,36 +44,41 @@ h1
     margin-bottom: 0
 
 #categories
-  @include column(3)
-  background: $categories_bg_color
+  @include column(4)
+  @include scrollable_pane
   ul
     margin: 0
     padding: 0
-  li
-    border-top: 1px solid $categories_border_color
   a
     @include link-colors($categories_link_color)
-    @include hover-link
     border-right: 1px solid $categories_border_color
     display: block
     padding: .5em 1em .5em 0
     text-align: right
+    text-decoration: none
+    &:hover
+      background: $categories_hover_bg_color
+      color: $categories_hover_color
   .current
-    background: $link-color
-    color: white
+    @include linear-gradient(color-stops(mix(#fff, $categories_current_bg_color, 40), $categories_current_bg_color))
+    @include text-shadow(#000, 0, 1px)
+    color: $categories_current_color
     font-weight: bold
 
 #features
-  @include column(7)
+  @include column(8)
+  @include scrollable_pane
   background: $features_bg_color
   li
     padding: .5em 0
 
 #preview
-  @include column(14, true)
+  @include column(12, true)
+  @include scrollable_pane
+  background: $preview_bg_color
   .category
     float: left
-    width: 100%
+    padding: 0 1.5em
   ul
     
   li
@@ -66,6 +87,8 @@ h1
     padding: .25em 0
 
 #save
-  background: #e0e0e0
+  @include linear-gradient(color-stops(mix(#fff, $locales_bg_color, 50), $locales_bg_color))
+  border-top: 1px solid $main_border_color
+  float: left
   padding: .75em 0
-  text-align: center
+  width: 100%

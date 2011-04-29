@@ -7,25 +7,23 @@
       = select_tag(:target_locale,
         options_for_select(I18n.available_locales, @target_locale))
 
-  .container
-    #categories
-      %ul.tabs
-        - @categories.each do |category|
-          %li= link_to(t("models.category.data.key.#{category.key}", :description => category.key.titleize),
-            "#category_features_#{category.key}",
-            :class => (category == @categories.first ? 'current' : ''))
+  #categories
+    %ul.tabs
+      - @categories.each do |category|
+        %li= link_to(t("models.category.data.key.#{category.key}", :description => category.key.titleize),
+          "#category_features_#{category.key}",
+          :class => (category == @categories.first ? 'current' : ''))
 
-    #features
-      .panes
-        - @categories.each do |category|
-          %ul.pane{:name => "category_features_#{category.key}"}
-            - category.features.each do |feature|
-              %li
-                = check_box_tag "features[#{feature.id}]", feature.id , @checked_features.include?(feature)
-                = label_tag "features[#{feature.id}]", t("models.feature.data.key.#{feature.key}", :description => feature.key.titleize)
+  #features
+    .panes
+      - @categories.each do |category|
+        %ul.pane{:name => "category_features_#{category.key}"}
+          - category.features.each do |feature|
+            %li
+              = check_box_tag "features[#{feature.id}]", feature.id , @checked_features.include?(feature)
+              = label_tag "features[#{feature.id}]", t("models.feature.data.key.#{feature.key}", :description => feature.key.titleize)
 
-        
-    #preview= render 'preview'
       
-  .container
-    #save= submit_tag
+  #preview= render 'preview'
+    
+  #save= submit_tag
