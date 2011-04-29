@@ -3,6 +3,6 @@ db/*.sqlite3
 log/*.log
 tmp/
 
-stylesheets*
+public/stylesheets*
 log/*yml
 config/locales/*yml
