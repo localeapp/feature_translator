@@ -13,26 +13,26 @@ fr:
     category: 
       data: 
         key: 
-          bathroom: "salle de bains"
-          buildings: bâtiments
-          garden: jardin
-          heating: chauffage
-          kitchen: cuisine
-          leisure: loisirs
-          location: situation
-          other: autres
-          outside: extérieur
-          parking: stationnement
-          pool: piscine
-          quality: qualité
-          rooms: pièces
-          security: sécurité
-          utilities: utilités
-          views: vues
+          bathroom: "Salle de bains"
+          buildings: Construction
+          garden: Jardin
+          heating: Chauffage
+          kitchen: Cuisine
+          leisure: Loisirs
+          location: Situation
+          other: Autre
+          outside: Extérieur
+          parking: Parking
+          pool: Piscine
+          quality: Qualité
+          rooms: Pièces
+          security: Securité
+          utilities: Utilitaires
+          views: Vues
     feature: 
       data: 
         key: 
-          24_hour_reception: "réception 24 heures"
+          24_hour_reception: "Réception 24h"
           24h_security_system: "système de sécurité 24 heures"
           access_to_beach: "accès a la plage"
           adsl: adsl

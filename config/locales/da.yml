@@ -1,13 +1,14 @@
 da: 
   locales: 
-    da: ~
-    de: ~
-    en: ~
-    es: ~
-    fr: ~
-    it: ~
-    nl: ~
-    pt: ~
+    da: Danske
+    de: Tysk
+    en: Engelsk
+    es: Spansk
+    fr: "Fransk "
+    it: Italiensk
+    nl: Hollandsk
+    pt: Portugisisk
+    ru: Russisk
   models: 
     category: 
       data: 

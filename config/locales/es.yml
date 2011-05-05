@@ -1,33 +1,34 @@
 es: 
   locales: 
-    da: ~
-    de: ~
-    en: ~
-    es: ~
-    fr: ~
-    it: ~
-    nl: ~
-    pt: ~
+    da: "Danés "
+    de: Alemán
+    en: Inglés
+    es: Español
+    fr: "Francés "
+    it: "Italiano "
+    nl: Holandés
+    pt: Portugués
+    ru: Rusia
   models: 
     category: 
       data: 
         key: 
-          bathroom: "cuarto de baño"
-          buildings: edificios
-          garden: jardín
-          heating: calefacción
-          kitchen: cocina
-          leisure: ocio
-          location: ubicación
-          other: otro
-          outside: "parte exterior"
-          parking: aparcamiento
-          pool: piscina
-          quality: calidad
-          rooms: habitaciones
-          security: seguridad
-          utilities: servicios
-          views: vistas
+          bathroom: "Cuarto de baño"
+          buildings: Edificios
+          garden: Jardín
+          heating: Calefacción
+          kitchen: Cocina
+          leisure: Ocio
+          location: Ubicación
+          other: Otro
+          outside: "Parte exterior"
+          parking: Aparcamiento
+          pool: Piscina
+          quality: Calidad
+          rooms: Habitaciones
+          security: Seguridad
+          utilities: Servicios
+          views: Vistas
     feature: 
       data: 
         key: 
