@@ -1,4 +1,4 @@
-= form_tag({:action => 'translate'}, :id => "main_form") do
+= form_tag('/', :id => "main_form") do
   #locales
     .locale.current
       = select_tag(:current_locale,
@@ -23,7 +23,6 @@
               = check_box_tag "features[#{feature.id}]", feature.id , @checked_features.include?(feature)
               = label_tag "features[#{feature.id}]", t("models.feature.data.key.#{feature.key}", :description => feature.key.titleize)
 
-      
   #preview= render 'preview'
     
   #save= submit_tag

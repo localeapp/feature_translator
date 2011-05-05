@@ -2,7 +2,7 @@ $(function() {
   $(".tabs").tabs(".panes > .pane");
 
   function updatePreview () {
-    $.post('/pages/translate', $("#main_form").serialize(), function(data) {
+    $.post('/', $("#main_form").serialize(), function(data) {
       $('#preview').html(data);
     }, 'script');
   }
