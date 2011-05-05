@@ -15,7 +15,7 @@ h1
   a
     @include hover-link
     @include link-colors($title_color, $title_color, $title_color, $title_color)
-    @include text-shadow(rgba(0,0,0, .8), 0, -1px)
+    @include text-shadow(rgba(0,0,0, .8), 0, 1px, 2px)
 
 #wrapper
   @include container
@@ -24,6 +24,7 @@ h1
   border: 1px solid $main_border_color
 
 #locales
+  background: $locales_bg_color
   @include linear-gradient(color-stops(mix(#fff, $locales_bg_color, 50), $locales_bg_color))
   border-bottom: 1px solid $main_border_color
   border-top: 1px solid #dcdcdc
@@ -60,6 +61,7 @@ h1
       background: $categories_hover_bg_color
       color: $categories_hover_color
   .current
+    background: $categories_current_bg_color
     @include linear-gradient(color-stops(mix(#fff, $categories_current_bg_color, 40), $categories_current_bg_color))
     @include text-shadow(#000, 0, 1px)
     color: $categories_current_color
