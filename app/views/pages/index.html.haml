@@ -10,7 +10,7 @@
   #categories
     %ul.tabs
       - @categories.each do |category|
-        %li= link_to(t("models.category.data.key.#{category.key}", :description => category.key.titleize),
+        %li= link_to(category.name,
           "#category_features_#{category.key}",
           :class => (category == @categories.first ? 'current' : ''))
 
@@ -21,7 +21,7 @@
           - category.features.each do |feature|
             %li
               = check_box_tag "features[#{feature.id}]", feature.id , @checked_features.include?(feature)
-              = label_tag "features[#{feature.id}]", t("models.feature.data.key.#{feature.key}", :description => feature.key.titleize)
+              = label_tag "features[#{feature.id}]", feature.name
 
   #preview= render 'preview'
     
