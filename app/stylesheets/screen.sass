@@ -94,3 +94,17 @@ h1
   float: left
   padding: .75em 0
   width: 100%
+
+#footer
+  @include container
+  padding:  3em 0
+  ul
+    @include horizontal-list(1em)
+  li
+    border-right: 1px solid $footer_color
+    color: $footer_color
+    &:last-child
+      border: none
+  a
+    @include hover-link
+    @include link-colors($footer_link_color)

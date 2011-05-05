@@ -268,4 +268,7 @@ es:
     key: ~
   views: 
     application: 
+      footer: 
+        copyright: 
+          html: "&copy; %{year} Portal 47 LTD"
       title: ~

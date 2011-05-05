@@ -2,7 +2,7 @@
 %html
   %head
     %title= t 'views.application.title'
-    = stylesheet_link_tag :all
+    = stylesheet_link_tag 'screen'
     = javascript_include_tag "http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"
     = javascript_include_tag 'application'
     = csrf_meta_tag
@@ -10,3 +10,9 @@
     %h1= link_to(t('views.application.title'), root_path)
     #wrapper
       = yield
+    #footer
+      %ul
+        %li= t('views.application.footer.copyright.html', :year => Time.now.year)
+        %li= link_to t('views.application.footer.sponsor_link'), 'http://www.kyero.com'
+        %li= link_to t('views.application.footer.powered_by_link'), 'http://www.localeapp.com'
+        %li= link_to t('views.application.footer.source_code_link'), 'http://github.com/LocaleApp/feature_translator'

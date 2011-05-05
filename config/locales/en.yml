@@ -267,4 +267,10 @@ en:
           workshop: Workshop
   views: 
     application: 
+      footer: 
+        copyright: 
+          html: "&copy; %{year} Portal 47 LTD"
+        powered_by_link: "Powered by LocaleApp"
+        source_code_link: "Source code on Github"
+        sponsor_link: "Brought to you by Kyero.com"
       title: "Feature Translator"

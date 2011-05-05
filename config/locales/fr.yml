@@ -520,4 +520,10 @@ fr:
     key: ~
   views: 
     application: 
+      footer: 
+        copyright: 
+          html: "&copy; %{year} Portal 47 LTD"
+        powered_by_link: "Propulsé par LocaleApp"
+        source_code_link: "Code source sur Github"
+        sponsor_link: "Présenté par Kyero.com"
       title: ~
