@@ -2,10 +2,10 @@
   #locales
     .locale.current
       = select_tag(:current_locale,
-        options_for_select(I18n.available_locales.map {|l| [t("locales.#{l}", :locale => l), l]}, I18n.locale))
+        options_for_select(Locale.all.sort_by {|l| l.name(l.code) }.map {|l| [l.name(l.code), l.code] }, I18n.locale))
     .locale.target
       = select_tag(:target_locale,
-        options_for_select(I18n.available_locales.map {|l| [t("locales.#{l}"), l]}, @target_locale))
+        options_for_select(Locale.all.sort_by {|l| l.name }.map {|l| [l.name, l.code] }, @target_locale))
 
   #categories
     %ul.tabs
