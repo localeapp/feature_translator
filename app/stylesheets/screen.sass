@@ -52,7 +52,6 @@ h1
     padding: 0
   a
     @include link-colors($categories_link_color)
-    border-right: 1px solid $categories_border_color
     display: block
     padding: .5em 1em .5em 0
     text-align: right
@@ -70,14 +69,12 @@ h1
 #features
   @include column(8)
   @include scrollable_pane
-  background: $features_bg_color
   li
     padding: .5em 0
 
 #preview
   @include column(12, true)
   @include scrollable_pane
-  background: $preview_bg_color
   .category
     float: left
     padding: 0 1.5em
@@ -97,7 +94,7 @@ h1
 
 #footer
   @include container
-  padding:  3em 0
+  padding:  1.5em 0
   ul
     @include horizontal-list(1em)
   li
