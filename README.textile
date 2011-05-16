@@ -16,6 +16,10 @@ Get an API_KEY from "LocaleApp.com":http://www.localeapp.com, then generate a Lo
 
 @localeapp install PROJECT_API_KEY@
 
-Create the DB, load seed data and send translations to LocaleApp
+Create the DB and load the seed data
 
 @rake db:setup@
+
+Push some seed translations to LocaleApp
+
+@localeapp push config/locales/seed_localization_data.zip
