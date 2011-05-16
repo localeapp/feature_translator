@@ -22,4 +22,4 @@ Create the DB and load the seed data
 
 Push some seed translations to LocaleApp
 
-@localeapp push config/locales/seed_localization_data.zip
+@localeapp push config/locales/seed_localization_data.zip@
